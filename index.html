@@ -5,24 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flip de imágenes</title>
   <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="header">
-        <h2>Harrison Salón</h2>
-        <h3>Cuidamos tu estilo</h3>
+        <img src="./img/logo.png" width="200" alt="Logo harrison">
+        <h1>Harrison Salón</h1>
+        <!-- <h3>Cuidamos tu estilo</h3> -->
+        <h3>CUIDAMOS TU ESTILO</h3>
     </div>
     <div class="container" id="regalos">
     <div class="card" onclick="flipCard(this)">
-        <div class="front">Turno corte con Luca 😎</div>
-        <div class="back">Hace click para enviar mensaje por WhatsApp 🎁</div>
+        <div class="front">
+            <div class="left-content">
+                <img src="./img/tijera.svg" width="30" alt="">
+                <p>Turno corte con Luca</p>
+            </div>
+            <div class="right-icon">
+                <!-- <img src="./img/wspp.svg" width="30" alt=""> -->
+            </div>
+        </div>
+        <div class="back">
+            <div class="left-content">
+            <!-- <img src="./img/lavado.svg" width="30" alt=""> -->
+                <p class="marginLeft">Enviar mensaje por WhatsApp</p>
+            </div>
+            <div class="right-icon">
+                <img src="./img/wspp.svg" width="30" alt="">
+            </div>
+        </div>
     </div>
     <div class="card" onclick="flipCard(this)">
-        <div class="front">Turno corte con Matías 😎</div>
-        <div class="back">Hace click para enviar mensaje por WhatsApp 🎁</div>
+        <div class="front">
+            <div class="left-content">
+            <img src="./img/navaja.svg" width="30" alt="">
+                <p>Turno corte con Matías</p>
+            </div>
+            <div class="right-icon">
+            </div>
+        </div>
+        <div class="back">
+            <div class="left-content">
+                <p class="marginLeft">Enviar mensaje por WhatsApp</p>
+            </div>
+            <div class="right-icon">
+                <img src="./img/wspp.svg" width="30" alt="">
+            </div>
+        </div>
     </div>
     <div class="card" onclick="flipCard(this)">
-        <div class="front">Turno Iván 😎</div>
-        <div class="back">Hace click para enviar mensaje por WhatsApp 🎁</div>
+        <div class="front">
+            <div class="left-content">
+            <img src="./img/lavado.svg" width="30" alt="">
+                <p>Turno Luca</p>
+            </div>
+            <div class="right-icon">
+            </div>
+        </div>
+        <div class="back">
+             <div class="left-content">
+                <p class="marginLeft">Enviar mensaje por WhatsApp</p>
+            </div>
+            <div class="right-icon">
+                <img src="./img/wspp.svg" width="30" alt="">
+            </div>
+        </div>
     </div>
     </div>
 

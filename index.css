@@ -16,14 +16,14 @@ h1{
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 50px 10px;
   gap: 20px;
 }
 
 .card {
   position: relative;
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   height: 90px;
   perspective: 1000px;
